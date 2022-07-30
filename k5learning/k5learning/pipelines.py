@@ -5,9 +5,12 @@
 
 
 # useful for handling different item types with a single interface
-from itemadapter import ItemAdapter
+
+import os
+
+from scrapy.pipelines.files import FilesPipeline
 
 
-class K5LearningPipeline:
-    def process_item(self, item, spider):
-        return item
+class K5LearningPipeline(FilesPipeline):
+    def file_path(self, request, response=None, info=None, *, item=None):
+        return os.path.join(item["name"], os.path.basename(request.url))
