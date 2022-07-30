@@ -1,9 +1,11 @@
-import scrapy
 from urllib.parse import urljoin
+
+import scrapy
+
 from ..items import K5LearningItem
 
 
-class WorksheetsSpider(scrapy.Spider):
+class KindergartenWorksheetsSpider(scrapy.Spider):
     name = "kindergarten-worksheets"
 
     def start_requests(self):
