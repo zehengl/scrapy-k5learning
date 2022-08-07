@@ -17,6 +17,12 @@ A scrapy app to crawl worksheets from [k5learning.com][1]
     pip install -r requirements-dev.txt
     cd k5learning
     scrapy crawl kindergarten-worksheets
+    scrapy crawl grade1-worksheets
+    scrapy crawl grade2-worksheets
+    scrapy crawl grade3-worksheets
+    scrapy crawl grade4-worksheets
+    scrapy crawl grade5-worksheets
+    scrapy crawl grade6-worksheets
 
 ## Credits
 
