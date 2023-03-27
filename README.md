@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://www.k5learning.com/sites/default/files/k5logo.png" alt="logo" height="128">
+    <img src="https://www.k5learning.com/sites/default/files/k5logo.png" alt="logo" height="64">
 </div>
 
 # scrapy-k5learning
