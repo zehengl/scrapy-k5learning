@@ -1,6 +1,5 @@
 <div align="center">
-    <img src="https://cdn1.iconfinder.com/data/icons/competitive-strategy-and-corporate-training/512/565_Bug_insect_spider_virus_web_cyber_spot_security-512.png" alt="logo" height="96">
-    <img src="https://www.k5learning.com/sites/default/files/k5logo.png" alt="logo" height="64">
+    <img src="https://www.k5learning.com/sites/default/files/k5logo.png" alt="logo" height="128">
 </div>
 
 # scrapy-k5learning
@@ -27,8 +26,5 @@ A scrapy app to crawl worksheets from [k5learning.com][1]
 ## Credits
 
 - [k5learning.com][1]
-- [Logo][2] by [Flatart][3]
 
 [1]: https://www.k5learning.com
-[2]: https://www.iconfinder.com/icons/4158580/bug_cyber_insect_security_spider_spot_virus_web_icon
-[3]: https://www.iconfinder.com/Flatart
