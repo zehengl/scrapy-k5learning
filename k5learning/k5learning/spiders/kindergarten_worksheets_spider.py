@@ -10,10 +10,17 @@ class KindergartenWorksheetsSpider(scrapy.Spider):
 
     def start_requests(self):
         urls = [
+            "https://www.k5learning.com/free-preschool-kindergarten-worksheets/letters-alphabet",
+            "https://www.k5learning.com/free-preschool-kindergarten-worksheets/phonics",
             "https://www.k5learning.com/free-preschool-kindergarten-worksheets/science",
             "https://www.k5learning.com/free-preschool-kindergarten-worksheets/vocabulary",
             "https://www.k5learning.com/free-preschool-kindergarten-worksheets/reading-comprehension",
             "https://www.k5learning.com/free-preschool-kindergarten-worksheets/numbers-counting",
+            "https://www.k5learning.com/free-preschool-kindergarten-worksheets/shapes",
+            "https://www.k5learning.com/free-preschool-kindergarten-worksheets/activities-concepts",
+            "https://www.k5learning.com/free-preschool-kindergarten-worksheets/simple-math",
+            "https://www.k5learning.com/free-preschool-kindergarten-worksheets/colors",
+            "https://www.k5learning.com/free-preschool-kindergarten-worksheets/writing",
         ]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
